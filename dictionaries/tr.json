@@ -63,5 +63,93 @@
       },
       "copyright": "© {year} Finans Asistanı. Tüm hakları saklıdır."
     }
+  },
+  "dashboard": {
+    "welcome": "Hoş Geldiniz, {name}",
+    "header": {
+      "brandName": "Finans Asistanı",
+      "notifications": "Bildirimler",
+      "toggleSidebar": "Menüyü aç veya kapat",
+      "userMenu": "Kullanıcı menüsü",
+      "read": "Okundu",
+      "unread": "Okunmadı",
+      "userName": "Haktan",
+      "notificationItems": {
+        "upcomingPaymentTitle": "Planlı ödeme yaklaşıyor",
+        "upcomingPaymentMessage": "Elektrik faturası 2 gün içinde sonlanıyor.",
+        "criticalBudgetTitle": "Kritik bütçe uyarısı",
+        "criticalBudgetMessage": "Bu ay giderler gelire çok yaklaştı.",
+        "successReportTitle": "Başarılı işlem",
+        "successReportMessage": "Nakit akışı raporu hazırlandı."
+      }
+    },
+    "summary": {
+      "totalBalance": "Toplam Bakiye",
+      "monthlyExpense": "Aylık Gider",
+      "activeGoals": "Aktif Hedefler"
+    },
+    "sidebar": {
+      "overview": "Genel Bakış",
+      "accounts": "Hesaplar",
+      "categories": "Kategoriler",
+      "transactions": "İşlemler",
+      "plannedPayments": "Planlı Ödemeler",
+      "goals": "Hedefler",
+      "tags": "Etiketler",
+      "settings": "Ayarlar",
+      "logout": "Çıkış Yap"
+    }
+  },
+  "accounts": {
+    "title": "Hesaplarım",
+    "subtitle": "Tüm banka, kredi kartı ve nakit varlıklarınızı tek bir yerden yönetin.",
+    "addAccount": "Yeni Hesap Ekle",
+    "balance": "Bakiye",
+    "types": {
+      "BANK": "Banka Hesabı",
+      "CREDIT_CARD": "Kredi Kartı",
+      "CASH": "Nakit",
+      "PERSON": "Kişi/Kurum"
+    },
+    "statementDay": "Kesim:",
+    "dueDay": "Son Ödeme:",
+    "createModal": {
+      "title": "Yeni Hesap Ekle",
+      "name": "Hesap Adı",
+      "type": "Hesap Türü",
+      "currency": "Para Birimi",
+      "balance": "Başlangıç Bakiyesi",
+      "statementDay": "Kesim Günü",
+      "dueDay": "Son Ödeme Günü",
+      "cancel": "Vazgeç",
+      "save": "Kaydet"
+    }
+  },
+  "categories": {
+    "title": "Kategoriler",
+    "subtitle": "Gelir ve giderlerinizi gruplandırarak bütçenizi kontrol altında tutun.",
+    "addCategory": "Yeni Kategori",
+    "monthlyLimit": "Aylık Limit:",
+    "types": {
+      "INCOME": "Gelir",
+      "EXPENSE": "Gider",
+      "TRANSFER": "Transfer"
+    },
+    "createModal": {
+      "title": "Yeni Kategori Ekle",
+      "name": "Kategori Adı",
+      "type": "Kategori Türü",
+      "icon": "İkon",
+      "color": "Renk",
+      "monthlyLimit": "Aylık Limit",
+      "cancel": "Vazgeç",
+      "save": "Kaydet"
+    }
+  },
+  "notFound": {
+    "title": "Aradığınız sayfa uzay boşluğunda kaybolmuş olabilir",
+    "description": "İstediğiniz içerik taşınmış, kaldırılmış veya bağlantı hatalı olabilir.",
+    "backHome": "Ana Sayfaya Dön",
+    "contactSupport": "Destek ile İletişime Geç"
   }
 }

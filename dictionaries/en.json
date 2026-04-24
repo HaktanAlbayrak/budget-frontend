@@ -58,5 +58,93 @@
       },
       "copyright": "© {year} Finance Assistant. All rights reserved."
     }
+  },
+  "dashboard": {
+    "welcome": "Welcome, {name}",
+    "header": {
+      "brandName": "Finance Assistant",
+      "notifications": "Notifications",
+      "toggleSidebar": "Toggle menu",
+      "userMenu": "User menu",
+      "read": "Read",
+      "unread": "Unread",
+      "userName": "Haktan",
+      "notificationItems": {
+        "upcomingPaymentTitle": "Upcoming scheduled payment",
+        "upcomingPaymentMessage": "Your electricity bill is due in 2 days.",
+        "criticalBudgetTitle": "Critical budget warning",
+        "criticalBudgetMessage": "Your expenses are very close to your income this month.",
+        "successReportTitle": "Successful action",
+        "successReportMessage": "Your cash flow report has been prepared."
+      }
+    },
+    "summary": {
+      "totalBalance": "Total Balance",
+      "monthlyExpense": "Monthly Expense",
+      "activeGoals": "Active Goals"
+    },
+    "sidebar": {
+      "overview": "Overview",
+      "accounts": "Accounts",
+      "categories": "Categories",
+      "transactions": "Transactions",
+      "plannedPayments": "Planned Payments",
+      "goals": "Goals",
+      "tags": "Tags",
+      "settings": "Settings",
+      "logout": "Log Out"
+    }
+  },
+  "accounts": {
+    "title": "My Accounts",
+    "subtitle": "Manage all your bank, credit card, and cash assets from a single place.",
+    "addAccount": "Add New Account",
+    "balance": "Balance",
+    "types": {
+      "BANK": "Bank Account",
+      "CREDIT_CARD": "Credit Card",
+      "CASH": "Cash",
+      "PERSON": "Person/Entity"
+    },
+    "statementDay": "Statement:",
+    "dueDay": "Due Date:",
+    "createModal": {
+      "title": "Add New Account",
+      "name": "Account Name",
+      "type": "Account Type",
+      "currency": "Currency",
+      "balance": "Opening Balance",
+      "statementDay": "Statement Day",
+      "dueDay": "Due Day",
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  },
+  "categories": {
+    "title": "Categories",
+    "subtitle": "Keep your budget under control by grouping your income and expenses.",
+    "addCategory": "New Category",
+    "monthlyLimit": "Monthly Limit:",
+    "types": {
+      "INCOME": "Income",
+      "EXPENSE": "Expense",
+      "TRANSFER": "Transfer"
+    },
+    "createModal": {
+      "title": "Add New Category",
+      "name": "Category Name",
+      "type": "Category Type",
+      "icon": "Icon",
+      "color": "Color",
+      "monthlyLimit": "Monthly Limit",
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  },
+  "notFound": {
+    "title": "The page you are looking for might be lost in deep space",
+    "description": "The content may have been moved, removed, or the link may be invalid.",
+    "backHome": "Back to Home",
+    "contactSupport": "Contact Support"
   }
 }

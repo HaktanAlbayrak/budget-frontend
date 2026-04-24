@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { getLocale } from "next-intl/server";
 import { JetBrains_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import { cn } from "@/lib/utils";
 
 // Premium FinTech Fontu (Okunabilirliği ve modernliği muazzamdır)
 const jakarta = Plus_Jakarta_Sans({
@@ -11,10 +12,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 // Kodlar ve Kredi Kartı numaraları için jilet gibi bir Mono font
-const jetbrainsMono = JetBrains_Mono({
-  variable: "--font-mono",
-  subsets: ["latin"],
-});
+const jetbrainsMono = JetBrains_Mono({subsets:['latin'],variable:'--font-mono'});
 
 export const metadata: Metadata = {
   title: "Finans Asistanı | Premium Yönetim",
@@ -31,7 +29,7 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      className={`${jakarta.variable} ${jetbrainsMono.variable} h-full`}
+      className={cn("h-full", jakarta.variable, "font-mono", jetbrainsMono.variable)}
       suppressHydrationWarning
     >
       <body className="font-sans antialiased min-h-screen flex flex-col bg-background text-foreground">
