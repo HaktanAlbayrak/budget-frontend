@@ -1,0 +1,62 @@
+{
+  "brandName": "Finance Assistant",
+  "meta": {
+    "title": "Finance Assistant | Premium Management",
+    "description": "Modern, smart, and secure personal budget management.",
+    "siteName": "Finance Assistant"
+  },
+  "common": {
+    "languageSwitcher": {
+      "toEnglish": "Switch language to English",
+      "toTurkish": "Switch language to Turkish"
+    }
+  },
+  "marketing": {
+    "hero": {
+      "title": "Manage Future Finance with Crystal Clarity",
+      "subtitle": "Track your personal budget, credit cards, and goals with a modern, smart, and secure assistant.",
+      "getStarted": "Get Started",
+      "login": "Login"
+    },
+    "features": {
+      "title": "Why Choose Us?",
+      "items": [
+        {
+          "title": "Smart Reminders",
+          "desc": "Never miss a payment. Color-coded (green, yellow, red) smart alarms for upcoming statements and bills."
+        },
+        {
+          "title": "Bank-Grade Security",
+          "desc": "With advanced Multi-Tenant architecture, your data is completely isolated. No one can access your financial data."
+        },
+        {
+          "title": "One-Click Reporting",
+          "desc": "Convert all your income, expenses, and goals into a razor-sharp Excel file in seconds."
+        }
+      ]
+    },
+    "footer": {
+      "description": "The smartest way to manage your personal budget, credit cards, and goals.",
+      "cta": {
+        "title": "Step into Financial Freedom",
+        "subtitle": "Create your free account today and take control of your money.",
+        "button": "Create Free Account"
+      },
+      "columns": {
+        "product": {
+          "title": "Product",
+          "links": ["Features", "Pricing", "Security", "Release Notes"]
+        },
+        "company": {
+          "title": "Company",
+          "links": ["About Us", "Careers", "Blog", "Contact"]
+        },
+        "legal": {
+          "title": "Legal",
+          "links": ["Privacy Policy", "Terms of Service", "Cookie Policy"]
+        }
+      },
+      "copyright": "© {year} Finance Assistant. All rights reserved."
+    }
+  }
+}

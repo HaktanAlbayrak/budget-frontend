@@ -1,0 +1,67 @@
+{
+  "brandName": "Finans Asistanı",
+  "meta": {
+    "title": "Finans Asistanı | Premium Yönetim",
+    "description": "Modern, akıllı ve güvenli kişisel bütçe yönetimi.",
+    "siteName": "Finans Asistanı"
+  },
+  "common": {
+    "languageSwitcher": {
+      "toEnglish": "Dili İngilizceye çevir",
+      "toTurkish": "Dili Türkçeye çevir"
+    }
+  },
+  "marketing": {
+    "hero": {
+      "title": "Geleceğin Finansını Cam Berraklığında Yönetin",
+      "subtitle": "Kişisel bütçenizi, kredi kartlarınızı ve hedeflerinizi modern, akıllı ve güvenli bir asistanla takip edin.",
+      "getStarted": "Hemen Başlayın",
+      "login": "Giriş Yap"
+    },
+    "features": {
+      "description": "Kişisel bütçenizi, kredi kartlarınızı ve hedeflerinizi yönetmenin en akıllı yolu.",
+      "title": "Neden Bizi Seçmelisiniz?",
+      "items": [
+        {
+          "title": "Akıllı Hatırlatıcılar",
+          "desc": "Ödemelerinizi asla kaçırmayın. Yaklaşan ekstreler ve faturalar için renk kodlu (yeşil, sarı, kırmızı) akıllı alarmlar."
+        },
+        {
+          "title": "Banka Seviyesinde Güvenlik",
+          "desc": "Gelişmiş Multi-Tenant mimarisi ile verileriniz tamamen izole edilir. Kimse sizin finansal verinize erişemez."
+        },
+        {
+          "title": "Tek Tıkla Raporlama",
+          "desc": "Tüm gelir, gider ve hedeflerinizi saniyeler içinde jilet gibi tasarlanmış bir Excel dosyasına dönüştürün."
+        }
+      ]
+    },
+    "footer": {
+      "description": "Kişisel bütçenizi, kredi kartlarınızı ve hedeflerinizi yönetmenin en akıllı yolu.",
+      "cta": {
+        "title": "Finansal Özgürlüğe Adım Atın",
+        "subtitle": "Hemen ücretsiz hesabınızı oluşturun ve paranızın kontrolünü elinize alın.",
+        "button": "Ücretsiz Hesap Oluştur"
+      },
+      "columns": {
+        "product": {
+          "title": "Ürün",
+          "links": ["Özellikler", "Fiyatlandırma", "Güvenlik", "Sürüm Notları"]
+        },
+        "company": {
+          "title": "Şirket",
+          "links": ["Hakkımızda", "Kariyer", "Blog", "İletişim"]
+        },
+        "legal": {
+          "title": "Yasal",
+          "links": [
+            "Gizlilik Politikası",
+            "Kullanım Şartları",
+            "Çerez Politikası"
+          ]
+        }
+      },
+      "copyright": "© {year} Finans Asistanı. Tüm hakları saklıdır."
+    }
+  }
+}
