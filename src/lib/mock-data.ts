@@ -139,3 +139,51 @@ export const mockCategories: Category[] = [
     createdAt: "2026-02-03T09:00:00.000Z",
   },
 ];
+
+export const mockTransactions: components["schemas"]["TransactionResponseDto"][] =
+  [
+    {
+      id: "tx-001",
+      type: "INCOME",
+      amount: 45000,
+      currency: "TRY",
+      date: "2026-04-15T10:00:00Z",
+      description: "Maaş Yatırıldı",
+      account: mockAccounts[0],
+      category: mockCategories[1],
+      createdAt: "2026-04-15T10:00:00Z",
+      updatedAt: "2026-04-15T10:00:00Z",
+    },
+    {
+      id: "tx-002",
+      type: "EXPENSE",
+      amount: 1525.5,
+      currency: "TRY",
+      date: "2026-04-18T12:30:00Z",
+      description: "Market Alışverişi",
+      account: mockAccounts[0],
+      category: mockCategories[0],
+      createdAt: "2026-04-18T12:30:00Z",
+      updatedAt: "2026-04-18T12:30:00Z",
+    },
+    {
+      id: "tx-003",
+      type: "EXPENSE",
+      amount: 12500,
+      currency: "TRY",
+      date: "2026-04-01T09:00:00Z",
+      description: "Kira Ödemesi",
+      account: mockAccounts[0],
+      category: {
+        id: "cat-exp-003",
+        name: "Kira",
+        type: "EXPENSE",
+        icon: "🏠",
+        color: "#ef4444",
+        monthlyLimit: 12500,
+        createdAt: "2026-01-01T09:00:00.000Z",
+      },
+      createdAt: "2026-04-01T09:00:00Z",
+      updatedAt: "2026-04-01T09:00:00Z",
+    },
+  ];

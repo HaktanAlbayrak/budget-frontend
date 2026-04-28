@@ -151,5 +151,42 @@
     "description": "İstediğiniz içerik taşınmış, kaldırılmış veya bağlantı hatalı olabilir.",
     "backHome": "Ana Sayfaya Dön",
     "contactSupport": "Destek ile İletişime Geç"
+  },
+  "shared": {
+    "deleteConfirm": {
+      "title": "Emin misiniz?",
+      "description": "Bu işlem geri alınamaz. Kaydı kalıcı olarak silmek istediğinize emin misiniz?",
+      "cancel": "Vazgeç",
+      "confirm": "Evet, Sil"
+    }
+  },
+  "transactions": {
+    "title": "İşlemler",
+    "subtitle": "Tüm gelir, gider ve transfer hareketlerinizi yönetin.",
+    "add": "Yeni İşlem Ekle",
+    "edit": "İşlemi Düzenle",
+    "delete": "Sil",
+    "search": "İşlem ara...",
+    "columns": {
+      "date": "Tarih",
+      "description": "Açıklama",
+      "category": "Kategori",
+      "account": "Hesap",
+      "amount": "Tutar",
+      "actions": "Aksiyon"
+    },
+    "form": {
+      "amount": "Tutar",
+      "type": "İşlem Tipi",
+      "date": "Tarih",
+      "description": "Açıklama",
+      "save": "Kaydet",
+      "cancel": "İptal"
+    },
+    "types": {
+      "INCOME": "Gelir",
+      "EXPENSE": "Gider",
+      "TRANSFER": "Transfer"
+    }
   }
 }
